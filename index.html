@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script type="module" src="./index.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Awesome Books</div>
+        <ul class="nav-list">
+          <li class="nav-button nav-1">
+            <button type="button">List</button>
+          </li>
+          <li class="nav-button nav-2">
+            <button type="button">Add new</button>
+          </li>
+          <li class="nav-button nav-3">
+            <button type="button">Contact</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="date">date to be added</div>
+    </header>
+    <main>
+      <section id="library">
+        <h2>All awesome books</h2>
+        <br />
+
+        <div id="book-shelf"></div>
+      </section>
+      <section id="add-new-book">
+        <div id="library-controls">
+          <h2>Add a new book</h2>
+          <br />
+          <br />
+          <form action="#" method="post" id="main-form">
+            <!-- <label for="title">Title</label> -->
+            <input
+              type="text"
+              id="title"
+              name="book-title"
+              placeholder="Title"
+              required
+            />
+            <br /><br />
+
+            <!-- <label for="author">Author</label> -->
+            <input
+              type="text"
+              id="author"
+              name="book-author"
+              placeholder="Author"
+              required
+            /><br /><br />
+
+            <button type="submit" id="add-button">Add</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="contact-us-section">
+        <div id="contact-us">
+          <h2>Contact information</h2>
+          <br />
+          <br />
+          <p>
+            Do you have any questions or you just want to say "Hello"? You can
+            reach out to us!
+          </p>
+          <ul>
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our phone number: 0043586534422</li>
+            <li>Our address: Streetname 22, 84503 City, Country</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer><div class="copyright">Copyright</div></footer>
+  </body>
+</html>
