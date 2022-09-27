@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 1s;
+  font-family: cursive;
+}
+
+header {
+  /* border: 1px solid yellow; */
+  padding: 0.25rem 0.5rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  padding-left: 0.9rem;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list button {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.nav-2 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.date {
+  /* border: 1px solid red; */
+  text-align: end;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#library h2 {
+  text-align: center;
+}
+
+#book-shelf {
+  width: 90%;
+  height: 45vh;
+  margin: auto;
+  border: 2px solid black;
+  overflow-y: scroll;
+}
+
+#library-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#library-controls h2 {
+  text-align: center;
+}
+
+#main-form {
+  width: 45%;
+}
+
+#title {
+  width: 100%;
+  height: 3rem;
+}
+
+#author {
+  width: 100%;
+  height: 3rem;
+}
+
+#add-button {
+  float: right;
+  border-color: black;
+  background-color: transparent;
+  padding: 0.2rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px black;
+}
+
+.book-shelf-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem;
+}
+
+.darker-background:nth-child(odd) {
+  background-color: rgba(190, 190, 190, 0.7);
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 45vh;
+}
+
+footer {
+  justify-self: end;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0.5rem;
+  margin-top: auto;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  padding-left: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  color: rgb(45, 45, 233);
+  font-weight: 700;
+}
+
+#library {
+  /* border: 4px solid indigo; */
+  padding-top: 2rem;
+}
+
+#add-new-book {
+  /* border: 4px solid indigo; */
+  padding-top: 2rem;
+}
+
+#contact-us-section {
+  /* border: 4px solid indigo; */
+  padding-top: 2rem;
+}
+
+.removeBtnStyle {
+  float: right;
+  border-color: black;
+  background-color: #fff;
+  padding: 0.1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px black;
+}
+
+#contact-us p {
+  font-size: 1.5rem;
+}
+
+#contact-us ul li {
+  font-size: 1.5rem;
+}
